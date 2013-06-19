@@ -4,7 +4,7 @@ organization := "name.heikoseeberger"
 name := "sbt-groll"
 
 // TODO Move version to version.sbt in order to support sbt-release
-version := "1.6.0"
+version := "1.7.0-SNAPSHOT"
 
 scalacOptions ++= Seq(
   "-unchecked",
