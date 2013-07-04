@@ -17,7 +17,7 @@ scalacOptions ++= Seq(
 
 sbtPlugin := true
 
-publishTo := { 
+publishTo := {
   import Classpaths._
   val repo = if (isSnapshot.value) sbtPluginSnapshots else sbtPluginReleases
   Some(repo)
