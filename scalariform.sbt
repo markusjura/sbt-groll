@@ -1,5 +1,8 @@
-import scalariform.formatter.preferences.AlignSingleLineCaseStatements
+import scalariform.formatter.preferences._
 
 scalariformSettings
 
-ScalariformKeys.preferences := ScalariformKeys.preferences.value.setPreference(AlignSingleLineCaseStatements, true)
+ScalariformKeys.preferences := ScalariformKeys.preferences.value
+  .setPreference(AlignSingleLineCaseStatements, true)
+  .setPreference(DoubleIndentClassDeclaration, true)
+  .setPreference(PreserveDanglingCloseParenthesis, true)
